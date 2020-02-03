@@ -1,34 +1,30 @@
 public class ConditionalStatement {
-	public static void main (String[] args) {
+	public static void main(String[] args) {
 		int age = 21;
-		String sex = "male";
 		int height = 170;
 		String name = "Misha";
-		boolean IsMaleSex = sex == "male";
+		boolean isMale = true;
 
-		if (age > 20) {
+		if(age > 20) {
 			System.out.println("Возраст равен " + age);
 		}
-		if (IsMaleSex == true) {
+		if(isMale) {
 			System.out.println ("Это мужской пол");
 		}
-		if (IsMaleSex == false) {
+		if(!isMale) {
 			System.out.println ("Это женский пол");
 		}
-		if (height < 180) {
+		if(height < 180) {
 			System.out.println ("Рост меньше 180");
-		}
-		else if (height > 180) {
+		} else if (height > 180) {
 			System.out.println ("Рост больше 180");
 		}
 		char symbol = name.charAt(0);
-		if (symbol == 'M') {
+		if(symbol == 'M') {
 			System.out.println ("Имя начинается с буквы " + symbol);
-		}
-		else if (symbol == 'I') {
+		} else if (symbol == 'I') {
 			System.out.println ("Имя начинается с буквы " + symbol);
-		}
-		else {
+		} else {
 			System.out.println("Имя начинается с другой буквы");
 		}
 	}

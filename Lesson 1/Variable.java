@@ -1,21 +1,21 @@
 public class Variable { 
-    public static void main(String[] args) {
-       
-       byte a = 4;
-       short b = 4095;
-       int c = 128;
-       long d = 553535663;
-       float e = 1.5553f;
-       double f = 5.35363634634888d;
-       char g = 'Z';
-       boolean  h = false;
-System.out.println("Count of cores: " +  a);
-System.out.println("RAM: " + b);
-System.out.println("Primary hard drive, GB: " + c);
-System.out.println("Count of music files: " + d);
-System.out.println("Some float expression :) " + e);
-System.out.println("Some double expression: " + f);
-System.out.println("Last virtual drive letter: " + g);
-System.out.println("It is laptop? " + h);
-    }
+	public static void main(String[] args) {
+		byte Cores = 4;
+		short RAM = 4095;
+		int HardDrive = 128;
+		long CountofMusic = 553535663;
+		float SomeFloat = 1.5553f;
+		double SomeDouble = 5.35363634634888d;
+		char LastDrive = 'Z';
+		boolean Laptop = false;
+
+		System.out.println("Count of cores: " +  Cores);
+		System.out.println("RAM: " + RAM);
+		System.out.println("Primary hard drive, GB: " + HardDrive);
+		System.out.println("Count of music files: " + CountofMusic);
+		System.out.println("Some float expression :) " + SomeFloat);
+		System.out.println("Some double expression: " + SomeDouble);
+		System.out.println("Last virtual drive letter: " + LastDrive);
+		System.out.println("It is laptop? " + Laptop);
+	}
 }
