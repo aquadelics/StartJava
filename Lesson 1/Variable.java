@@ -2,11 +2,11 @@ public class Variable {
 	public static void main(String[] args) {
 		byte cores = 4;
 		short ram = 4095;
-		int harddrive = 128;
-		long countofmusic = 553535663;
-		float somefloat = 1.5553f;
-		double somedouble = 5.35363634634888d;
-		char lastdrive = 'Z';
+		int hardDrive = 128;
+		long countOfMusic = 553535663;
+		float performanceRating = 4.5553f;
+		double downloaderVersion = 5.35363634634888d;
+		char lastDrive = 'Z';
 		boolean isLaptop = false;
 
 		System.out.println("Count of cores: " +  cores);
