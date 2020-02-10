@@ -20,11 +20,11 @@ public class ConditionalStatement {
 			System.out.println("Рост больше 180");
 		}
 
-		String firstNameLatter = "M";
-		if(firstNameLatter == "M") {
-			System.out.println("Имя начинается с буквы " + firstNameLatter);
-		} else if (firstNameLatter == "I") {
-			System.out.println("Имя начинается с буквы " + firstNameLatter);
+		String firstNameLetter = "M";
+		if(firstNameLetter == "M") {
+			System.out.println("Имя начинается с буквы " + firstNameLetter);
+		} else if (firstNameLetter == "I") {
+			System.out.println("Имя начинается с буквы " + firstNameLetter);
 		} else {
 			System.out.println("Имя начинается с другой буквы");
 		}
