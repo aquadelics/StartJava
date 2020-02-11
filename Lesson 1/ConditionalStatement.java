@@ -16,16 +16,18 @@ public class ConditionalStatement {
 		int height = 170;
 		if(height < 180) {
 			System.out.println("Рост меньше 180");
-		} else if (height > 180) {
+		} else if(height > 180) {
 			System.out.println("Рост больше 180");
 		}
 
-		String firstNameLetter = "M";
-		if(firstNameLetter == "M") {
-			System.out.println("Имя начинается с буквы " + firstNameLetter);
-		} else if (firstNameLetter == "I") {
-			System.out.println("Имя начинается с буквы " + firstNameLetter);
-		} else {
+		String name = "Pasha";
+		char m = name.charAt(0);
+		char i = name.charAt(0);
+		if(m == 'M') {
+			System.out.println("Имя начинается с буквы " + m);
+		} else if(i == 'I') {
+			System.out.println("Имя начинается с буквы " + i);
+		} else{
 			System.out.println("Имя начинается с другой буквы");
 		}
 	}
