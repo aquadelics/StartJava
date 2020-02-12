@@ -20,14 +20,13 @@ public class ConditionalStatement {
 			System.out.println("Рост больше 180");
 		}
 
-		String name = "Pasha";
-		char m = name.charAt(0);
+		String name = "Iasha";
 		char i = name.charAt(0);
-		if(m == 'M') {
-			System.out.println("Имя начинается с буквы " + m);
+		if(i == 'M') {
+			System.out.println("Имя начинается с буквы " + i);
 		} else if(i == 'I') {
 			System.out.println("Имя начинается с буквы " + i);
-		} else{
+		} else {
 			System.out.println("Имя начинается с другой буквы");
 		}
 	}
