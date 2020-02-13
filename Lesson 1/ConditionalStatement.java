@@ -21,11 +21,11 @@ public class ConditionalStatement {
 		}
 
 		String name = "Iasha";
-		char i = name.charAt(0);
-		if(i == 'M') {
-			System.out.println("Имя начинается с буквы " + i);
-		} else if(i == 'I') {
-			System.out.println("Имя начинается с буквы " + i);
+		char firstNameLatter = name.charAt(0);
+		if(firstNameLatter == 'M') {
+			System.out.println("Имя начинается с буквы " + firstNameLatter);
+		} else if(firstNameLatter == 'I') {
+			System.out.println("Имя начинается с буквы " + firstNameLatter);
 		} else {
 			System.out.println("Имя начинается с другой буквы");
 		}

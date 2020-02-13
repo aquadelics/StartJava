@@ -15,7 +15,7 @@ public class Cycle {
 		int sum = 0;
 		do {
 			if(p % 2 != 0) {
-				sum = sum + p;
+				sum += p;
 			}
 			p++;
 		} while(p <= 20);
