@@ -5,21 +5,6 @@ public class Jaeger {
 	private boolean isTurnedOn;
 	private int countOfLifes;
 
-	void recover() {
-		System.out.println("Робот восстановил жизнь");
-	}
-
-	void fight() {
-		System.out.println("Робот наносит удар");
-	}
-
-	public String getModelName() {
-		return modelName;
-	}
-
-	void setModelName(String modelName) {
-		this.modelName = modelName;
-	}
 
 	public String getMark() {
 		return mark;
@@ -51,5 +36,21 @@ public class Jaeger {
 
 	void setCountOfLifes(int countOfLifes) {
 		this.countOfLifes = countOfLifes;
+	}
+
+	public String getModelName() {
+		return modelName;
+	}
+
+	void setModelName(String modelName) {
+		this.modelName = modelName;
+	}
+
+	void recover() {
+		System.out.println("Робот восстановил жизнь");
+	}
+
+	void fight() {
+		System.out.println("Робот наносит удар");
 	}
 }
