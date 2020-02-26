@@ -1,5 +1,5 @@
 public class Calculator {
-		double calculateResult (int a, int b, char operation) {
+		double calculate(int a, int b, char operation) {
 			switch (operation) {
 				case '+':
 					return a + b;
@@ -13,13 +13,14 @@ public class Calculator {
 					int result = 1;
 					int j = 1;
 					while(j <= b) {
-						result = result * a;
+						result *= a;
 						j++;
 					}
 					return result;
 				case '%':
 					return a % b;
 				default:
+					System.out.println("Неверный оператор");
 					return 0;
 			}
 		}
